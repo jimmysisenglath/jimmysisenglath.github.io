@@ -18,7 +18,10 @@
 				<ul class="container">
 					<li><a href="#top">Top</a></li>
 					<li><a href="#work">Personality</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#certificate">Certificates</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -28,7 +31,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+							<span style="width: 150px; height:150px; text-align: center" class="image fit"><img src="images/image0.jpg" alt="" /></span>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
@@ -67,99 +70,178 @@
 							multiple techniques and different technologies that can be used.
 						</div>
 					</div>
-				<!-- <div class="container">
-					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-comments"></span>
-								<h3>Consequat lorem</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-camera-retro"></span>
-								<h3>Lorem dolor tempus</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
-								<h3>Feugiat posuere</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-					</footer>
-				</div> -->
-				<div style="text-align:center; margin-top:5%"><a href="#portfolio" class="button large scrolly" style="text-align:center">See some of my recent work</a></div>
+				<div style="text-align:center; margin-top:5%"><a href="#projects" class="button large scrolly" style="text-align:center">See some of my recent work</a></div>
 			</article>
 
 		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
+			<article id="projects" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Here’s some stuff I made recently.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+						<h2>Projects</h2>
 					</header>
 					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-4 col-6-medium col-11-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<h3>Old Town Pizza Scheduler</h3>
+								<p><strong>Technology and Tools:</strong> 
+										AWS Cloud9, Git, HTML5, CSS, JavaScript, Node.js, Express.js, Bootstrap, MySQL<br><br>
+										
+										Using Agile with Scrum methodology, we organized a web-based scheduler to assist 
+										the manager/supervisor to have an easier and efficient way when creating employees’ 
+										work schedule. By forging multiple documents, such as the product backlog, sprints, 
+										user manual, and the maintenance manual, we were able to efficiently and effectively 
+										tackle our tasks in a face paced approach.
+								</p>
+								<ul>
+									<li>
+										Responsible to implement a GUI of a calendar that displays the past, current, 
+										and future months upon clicking a backward and forward button
+									</li>
+									<li>Handled implementation upon clicking a specific date in the calendar, a current modal would appear that displays a text box along with a request off and cancel button 
+									</li>
+									<li>
+										Connected MySQL database to store data and used placeholders to prevent SQL injection
+									</li>
+								</ul>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-4 col-6-medium col-11-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<h3>Million Song Data Analysis</h3>
+								<p><strong>Technology and Tools:</strong> 
+									Python, Jupyter Notebook, NumPy, Scipy, Sklearn, Pandas, Matplotlib<br><br>
+
+									Using a subset of Spotify’s Million Playlist Dataset, it was used to be able 
+									to data clean using the most popular genres we had in our dataset. Using 
+									classification, the genres were used as ground truths, we then trained 80% and 
+									tested 20% of our data set, then applied it to different data models to see how 
+									accurate the models are to predict the genre of our data
+							</p>
+							<ul>
+								<li>
+									Cleaned out a total of 7,717 records from our starting 10,000 records
+								</li>
+								<li>
+									Used recursive feature elimination to remove all features that are not related to genre								</li>
+								<li>
+									Results ended with being ~75% with data models such as neural networks and decision tree
+								</li>
+							</ul>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-4 col-6-medium col-11-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<h3>Online Bookstore Database</h3>
+								<p><strong>Technology and Tools:</strong> 
+									MySQL, MySQL Workbench<br><br>
+
+									Created a database with fixed values relating 
+									to an online bookstore. Also, to create multiple 
+									queries to filter out what needed to be viewed.
+							</p>
+							<ul>
+								<li>
+									Generated tables and data using the CREATE TABLE and INSERT INTO statements
+								</li>
+								<li>
+									Filtered out data by using SELECT statements that produced requested queries								</li>
+							</ul>
 							</article>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+						<div style="text-align:center; margin-top:5%"><a href="#experience" class="button large scrolly" style="text-align:center">See my work experience</a></div>
 					</footer>
 				</div>
 			</article>
+
+
+
+		<!-- Work Experience -->
+		<article id="experience" class="wrapper style3">
+		<div class="container">
+					<header>
+						<h2 style="text-align: center">Professional Work Experience</h2>
+					</header>
+					<div class="row aln-center">
+						<div class="col-8 col-10-medium col-11-small">
+							<section class="box style1">
+									<i class="fas fa-business-time fa-7x"></i><br><br>
+								<h3>Department of Consumer Affairs</h3>
+								<i style="font-size: 16px">1625 N. Market Blvd, Ste N112<br>Sacramento, CA 95834</i><br>
+								<p>Aided senior administrator resolving problematic issues 
+									concerning telecom. Such as, communicating and directly 
+									working with clients with their problems related to their 
+									phones, performed a variety of technical and/or administrative 
+									duties within the server and network by troubleshooting which 
+									ports are connected to switches in the intermediate distribution frame.
+								</p>
+								<p style="text-align:left"><strong>Projects:</strong></p>
+								<ul style="text-align: left">
+									<li>
+										<strong>Bureau of Cannabis Control Migration:</strong>
+										<ul>
+											<li>
+												Configured multiple phones and deported them out to different workstations.
+											</li>
+											<li>
+												Created multiple internal phone numbers, using Element Manager, creating 
+												terminal numbers to be programmed inside the phones
+											</li>
+											<li>
+												Generated multiple voicemails routing to specific phones using CallPilot
+											</li>
+										</ul>
+									</li>
+									<li>
+										<strong>DBAN/Survey Equipment Project:</strong>
+										<ul>
+											<li>
+												Configured desktop computers hooking multiple SATA cables and connecting ~3-4 hard drives to each desktop
+											</li>
+											<li>
+												Installing DBAN in a USB drive and cleaning out multiple hard drives
+											</li>
+											<li>
+												Filled out multiple documents surveying out every desktop stating the MAC address
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<a href="#portfolio" class="button large scrolly">See my education!</a>
+					</footer>
+				</div>
+			</article>
+
+
+
+
+		<!-- Education -->
+		<article id="education" class="style2" style="background-color: #fafafa; text-shadow: 1px 1px 0px #fff; 
+		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); padding: 8em 0 8em 0;">
+			<h2 style="text-align:center">Education</h2>
+				<div class="row aln-center">
+					<div class="col-4 col-6-medium col-11-small">
+							<p style="font-size: 25px"><strong>California State University, Sacramento</strong><br><span style="opacity:0.7">2016 - 2019</span></p>
+							​
+							
+							I am a graduate at California State University, Sacramento with a Degree of Science, Computer Science. 
+							Through this program I have developed a strong problem-solving skills that sharpened my ways to think critically.
+							 I have completed and facilitated multiple projects that require planning, design, and implementation.
+					</div>
+					<div class="col-4 col-6-medium col-11-small">
+							<p style="font-size: 25px"><strong>Sacramento City College</strong><br><span style="opacity:0.7">2011 - 2016</span></p>
+							
+							Learn basic arithmetic and introduction to Computer Science. Was able to learn 
+							the basics of C++ and C. Completed general education then transferred to California State University, Sacramento.
+					</div>
+				</div>
+			<div style="text-align:center; margin-top:5%"><a href="#projects" class="button large scrolly" style="text-align:center">See some of my recent work</a></div>
+		</article>
 
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
@@ -197,12 +279,7 @@
 							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
 								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
