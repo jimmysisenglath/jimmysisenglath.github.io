@@ -2310,6 +2310,10 @@ input, select, textarea {
 					letter-spacing: 0;
 				}
 
+			.madeButton{
+				width: 90%;
+			}
+
 		/* Social */
 
 			ul.social {
@@ -2406,7 +2410,7 @@ input, select, textarea {
 		/* Articles */
 
 			#top {
-				padding: 3em 0;
+				padding: 6em 0;
 			}
 
 				#top .image {
